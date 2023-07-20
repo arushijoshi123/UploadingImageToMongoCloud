@@ -28,7 +28,7 @@ const ImageGallery = ({ userId }) => {
                   width={100}
                   height={100}
                   key={index}
-                  src={`hhttps://uploadimagetomongodbapi.onrender.com/${image.image}`}
+                  src={`https://uploadimagetomongodbapi.onrender.com/${image.image}`}
                   alt={`Image ${index}`}
                   className="image-item"
                 />
