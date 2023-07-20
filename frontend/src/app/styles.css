@@ -1,0 +1,16 @@
+/* Adjust the image size and add margin */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Gap between images */
+}
+
+.image-item {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Maintain the aspect ratio and cover the container */
+    margin: 5px;
+    /* Add margin around each image */
+}
