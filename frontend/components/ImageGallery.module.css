@@ -1,0 +1,12 @@
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+  gap: 10px;
+}
+
+.imageItem {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

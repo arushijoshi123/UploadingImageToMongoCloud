@@ -1,0 +1,19 @@
+/* page.module.css */
+.container {
+  max-width: 800px;
+  margin: 6rem auto;
+  padding: 8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e0e2d4;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 10rem; /* Add margin at the bottom of the heading */
+}
+
+.div {
+  margin-top: 5rem; /* Add margin at the top of the link container */
+}
