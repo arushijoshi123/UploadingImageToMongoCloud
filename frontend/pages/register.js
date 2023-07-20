@@ -23,7 +23,7 @@ const RegisterPage = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://uploadapisrc.onrender.com/user/register",
+        "https://uploadimagetomongodbapi.onrender.com/user/register",
         formData
       );
       console.log(response.data);

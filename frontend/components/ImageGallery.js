@@ -7,7 +7,7 @@ const ImageGallery = ({ userId }) => {
   useEffect(() => {
     // Fetch images from the server for the specific user
     axios
-      .get(`https://uploadapisrc.onrender.com/image/${userId}`)
+      .get(`https://uploadimagetomongodbapi.onrender.com/image/${userId}`)
       .then((res) => {
         // Assuming the images are inside the "allimages" field of the response object
         setImages(res.data.allimages);
@@ -28,7 +28,7 @@ const ImageGallery = ({ userId }) => {
                   width={100}
                   height={100}
                   key={index}
-                  src={`https://uploadapisrc.onrender.com/${image.image}`}
+                  src={`https://uploadimagetomongodbapi.onrender.com/${image.image}`}
                   alt={`Image ${index}`}
                   className="image-item"
                 />

@@ -21,7 +21,7 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://uploadapisrc.onrender.com/user/login",
+        "https://uploadimagetomongodbapi.onrender.com/user/login",
         formData
       );
       console.log(response.data);

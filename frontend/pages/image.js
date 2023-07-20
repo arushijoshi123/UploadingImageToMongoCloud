@@ -25,7 +25,7 @@ const Image = () => {
     formData.append("image", selectedImage);
     formData.append("userid", userId);
     axios
-      .post("https://uploadapisrc.onrender.com/image/upload", formData)
+      .post("https://uploadimagetomongodbapi.onrender.com/image/upload", formData)
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
   };
