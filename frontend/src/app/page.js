@@ -12,6 +12,7 @@ export default function Home() {
           <Link href="/register">CLICK HERE FOR REGISTRATION</Link>
           
         </div>
+        <br></br>
 
         <div>
           <Link href="/login">CLICK HERE FOR Login</Link>
