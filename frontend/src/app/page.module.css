@@ -15,5 +15,6 @@
 }
 
 .div {
-  margin-top: 5rem; /* Add margin at the top of the link container */
+  margin-top: 5rem;
+  padding-top: 5rem; /* Add margin at the top of the link container */
 }
