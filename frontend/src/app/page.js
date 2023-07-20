@@ -10,10 +10,15 @@ export default function Home() {
 
         <div>
           <Link href="/register">CLICK HERE FOR REGISTRATION</Link>
+          
+        </div>
+
+        <div>
           <Link href="/login">CLICK HERE FOR Login</Link>
+          
         </div>
       </div>
     </main>
-    
+
   );
 }
